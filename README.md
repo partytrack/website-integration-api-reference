@@ -126,6 +126,6 @@ Example failed response:
 Status: 400 (BadRequest)
 {
     "status": "error",
-    "message": "Missing 'requireddate'"
+    "message": "\"requireddate\" is required"
 }
 ```
