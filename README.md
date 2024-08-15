@@ -48,7 +48,7 @@ webordno            [Number] Web order number
 eventtype           [String] Event Type (max length 30)
 comments            [String] Any special instructions or notes entered by the customer (max length 3000)
 items               [Array] Order items
-	itemid *            [String] Unique ID for the item (max length 15)
+	itemid *            [String] Unique ID for the item (max length 50)
 	qty *               [Number] Item quantity
 	price               [Number] Item price
 
